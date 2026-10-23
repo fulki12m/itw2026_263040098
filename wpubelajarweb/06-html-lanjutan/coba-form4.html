@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Element Form Didalam Tabel</title>
+</head>
+<body>
+
+    <h1>Coba Element-element Form pada html</h1>
+    <h3>Masukan data diri anda dalam formulir di bawah ini:</h3>
+
+<form>
+    <table>
+        <tr>
+            <td><label for="nama">Nama:</label></td>
+            <td> <input type="text" name="nama" id="nama" placeholder="Masukan Nama Lu"></td>
+        </tr>
+        <tr>
+            <td><label for="gmail">Gmail:</label></td>
+            <td><input type="email" name="gmail" id="gmail" placeholder="ucokgaming@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" name="password" id="password" placeholder="Masukan Password"></td>
+        </tr>
+        <tr>
+            <td>  <label for="alamat">Alamat:</label></td>
+            <td>  <input type="text" name="alamat" id="alamat" placeholder="Masukan Alamat rumah lu"></td>
+        </tr>
+        <tr> 
+            <td> <label for="gender">Jenis Kelamin:</label></td>
+            <td><input type="radio" name="gender" id="gender" value="Laki-laki">Laki-laki
+                <input type="radio" name="gender" id="gender" value="Perempuan">Perempuan   
+            </td>
+        </tr>
+        <tr>
+            <td><label for="number">Nomor Telepon:</label></td>
+            <td><input type="tel" name="number" id="number" placeholder="Masukan Nomor Telepon"></td>
+        </tr>
+        <tr>
+            <td><label for="angka">Angka favorit:</label></td>
+            <td><input type="number" name="angka" id="angka" placeholder="Masukan angka" min="1" max="100"></td>
+        </tr>
+        <tr>
+            <td><label for="tanggal">Tanggal Lahir:</label></td>
+            <td><input type="date" name="tanggal" id="tanggal"></td>
+        </tr>
+
+        <tr>
+            <td><label for="warna">Warna Favorit:</label></td>
+            <td><input type="color" name="warna" id="warna"></td>
+        </tr>
+        <tr>
+            <td><label for="konfirmasi">Konfirmasi:</label></td>
+            <td><input type="checkbox" name="konfirmasi" id="konfirmasi" value="setuju">Saya setuju dengan syarat dan ketentuan yang berlaku</td>   
+        </tr>
+        <tr>
+            <td><label for="konfirmasi">SUBMIT:</label></td>
+            <td><input type="submit" value="Kirim">
+                <input type="reset" value="Reset"></td>
+    </table>
+     
+</form>
+</body>
+</html>
